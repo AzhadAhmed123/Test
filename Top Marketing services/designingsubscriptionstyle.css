@@ -1,0 +1,562 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Maven+Pro:wght@400..900&display=swap');
+@import url('animate.css');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+.herosectionbg {
+    background-color: #211f3c;
+    border-radius: 25px;
+    padding: 50px;
+}
+
+.marginauto {
+    margin: auto;
+}
+
+.width-7 {
+    width: 25%;
+    margin: auto;
+}
+
+.width-6 {
+    width: 30%;
+}
+
+.width-3 {
+    width: 35%;
+}
+
+.width-1 {
+    width: 40%;
+    margin: auto;
+}
+
+.width-2 {
+    width: 45%;
+}
+
+.width-3 {
+    width: 50%;
+    margin: auto;
+}
+
+.width-4 {
+    width: 75%;
+    margin: auto;
+}
+
+.width-5 {
+    width: 100%;
+    margin: auto;
+}
+
+.textaligncenter {
+    text-align: center;
+}
+
+.colorwhite {
+    color: #fff;
+}
+
+.fillblack {
+    fill: black;
+}
+
+.fillwhite {
+    fill: #fff;
+}
+
+.colorblack {
+    color: black;
+}
+
+.reinventsec-text-items {
+    padding-bottom: 50px;
+}
+
+.reinvent-sec-card-1 {
+    width: 29%;
+}
+
+.reinventsec-text-para {
+    width: 63%;
+}
+
+.reinvent-sec-card-1 {
+    padding: 35px 30px;
+    background-color: #722bf5;
+    border-radius: 15px;
+}
+
+.reinvent-sec-card-1-h2 {
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    font-family: "Lato", sans-serif;
+}
+
+.e-fas-recycle,
+.e-far-thumbs-up {
+    width: 27%;
+}
+
+.e-far-folder-open {
+    width: 30%;
+}
+
+.reinvent-sec-card-1-h2-2 {
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    font-family: "Lato", sans-serif;
+}
+
+.reinvent-sec-card-2 {
+    background-color: #2cffc0;
+}
+
+.reinvent-sec-card-3 {
+    background-color: #118dff;
+}
+
+.section-7-content-para-2 {
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin: -16px 0px 0px 0px;
+}
+
+.section-7-content-h2-2 {
+    font-family: "Maven Pro", Sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: -2px;
+    color: #cfccff;
+}
+
+.membershipcard1 {
+    background-color: #722bf5;
+    padding: 40px 40px;
+    border-radius: 10px;
+}
+
+.membershipcard1-texth2-1,
+.text-h2-2 {
+    font-family: "Lato", Sans-serif;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 29px;
+    letter-spacing: 0.1px;
+}
+
+.membershipcard2 {
+    background-color: #2cffc0;
+}
+
+.membershipcard3 {
+    background-color: #118dff;
+}
+
+.membershipcard4,
+.membershipcard6 {
+    background-color: #FBEC5D;
+}
+
+.membershipcard5 {
+    background-color: #bd2bd4;
+}
+
+.membership-offercon {
+    flex-wrap: wrap;
+}
+
+.membershipcard1 {
+    width: 31%;
+}
+
+.bgimagesize-1 {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.portfolio-1 {
+    width: 32%;
+    height: 279px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.portfolio-1-img:hover,
+.portfolio-2-img:hover,
+.portfolio-3-img:hover,
+.portfolio-4-img:hover,
+.portfolio-5-img:hover,
+.portfolio-6-img:hover,
+.portfolio-7-img:hover,
+.portfolio-8-img:hover,
+.portfolio-9-img:hover {
+    transform: scale(1.1);
+    border-radius: 5px;
+}
+
+.portfolio-1-img {
+    background-image: url('img/portfoliodes-1.jpg');
+    border-radius: 15px;
+    transition: 0.3s;
+    height: 279px;
+    margin: auto;
+}
+
+.portfolio-2-img {
+    background-image: url('img/portfoliodes-2.jpg');
+    border-radius: 15px;
+    transition: 0.3s;
+    height: 279px;
+    margin: auto;
+}
+
+.portfolio-3-img {
+    background-image: url('img/portfoliodes-3.png');
+    border-radius: 15px;
+    transition: 0.3s;
+    height: 279px;
+    margin: auto;
+}
+
+.portfolio-4-img {
+    background-image: url('img/portfoliodes-4.jpg');
+    border-radius: 15px;
+    transition: 0.3s;
+    height: 279px;
+    margin: auto;
+}
+
+.portfolio-5-img {
+    background-image: url('img/portfoliodes-5.jpg');
+    border-radius: 15px;
+    transition: 0.3s;
+    height: 279px;
+    margin: auto;
+}
+
+.portfolio-6-img {
+    background-image: url('img/portfoliodes-6.png');
+    border-radius: 15px;
+    transition: 0.3s;
+    height: 279px;
+    margin: auto;
+}
+
+.portfolio-7-img {
+    background-image: url('img/portfoliodes-7.jpeg');
+    border-radius: 15px;
+    transition: 0.3s;
+    height: 279px;
+    margin: auto;
+}
+
+.portfolio-8-img {
+    background-image: url('img/portfoliodes-8.jpg');
+    border-radius: 15px;
+    transition: 0.3s;
+    height: 279px;
+    margin: auto;
+}
+
+.portfolio-9-img {
+    background-image: url('img/portfoliodes-9.jpg');
+    border-radius: 15px;
+    transition: 0.3s;
+    height: 279px;
+    margin: auto;
+}
+
+.container {
+    font-size: 40px;
+    font-weight: 600;
+    color: #fbec5d;
+    position: relative;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+
+.cursor {
+    display: inline-block;
+    animation: blink 0.7s step-end infinite;
+    position: relative;
+    left: 0;
+    border-left: 2px solid white;
+    background: none;
+    color: transparent;
+}
+
+/* @keyframes blink {
+    50% {
+        opacity: 0;
+    }
+} */
+
+.portfolio-sec-btn {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    background-image: linear-gradient(-335deg, #118DFF 0%, #9303D7 95%);
+    border: none;
+    color: #ffffff;
+    padding: 16px 30px 16px 30px;
+    border-radius: 10px;
+    font-family: "Maven Pro", sans-serif;
+}
+
+.portfolio-sec-btn:hover {
+    background-image: linear-gradient(195deg, #118DFF 0%, #9303D7 95%);
+}
+
+.membership-offer-flx-1 {
+    background-image: linear-gradient(157deg, #118dff 13%, #722bf5 59%);
+    width: 35%;
+    padding: 100px 30px;
+    border-radius: 25px;
+}
+
+.membership-offer-flx-1-h2 {
+    color: #fff;
+    font-family: "Maven Pro", Sans-serif;
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 55px;
+    letter-spacing: -2px;
+}
+
+.membership-offer-flx-card-1 {
+    margin-top: 50%;
+    background-color: #211f3c;
+    text-align: center;
+    padding: 5px 15px 15px 15px;
+    border-radius: 15px 15px 15px 15px;
+    display: flex;
+    border: 1px solid #fff;
+    align-items: baseline;
+    gap: 25px;
+}
+
+.membership-offer-flx-card-2 {
+    margin-top: 5%;
+    background-color: #211f3c;
+    text-align: center;
+    padding: 5px 15px 15px 15px;
+    border-radius: 15px 15px 15px 15px;
+    display: flex;
+    border: 1px solid #fff;
+    align-items: baseline;
+    gap: 25px;
+}
+
+.membership-offer-flx-card-1-h3 {
+    font-size: 22px;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 600;
+    color: #fff;
+}
+
+.membership-offer-flx-card-1-para {
+    padding-top: 5px;
+}
+
+.flx-1234 {
+    align-items: normal;
+}
+
+.membership-offer-flx-2 {
+    background-color: #fce400;
+    width: 50%;
+    padding: 25px 25px;
+    border-radius: 25px;
+    width: 627px;
+    height: 810px;
+}
+
+.membership-offer-flex-2h2 {
+    font-size: 42px;
+    font-family: "Maven Pro", sans-serif;
+    font-weight: 800;
+    letter-spacing: -2px;
+    text-transform: capitalize;
+    line-height: 42px;
+}
+
+.membership-offersub-flx-1 {
+    background-color: ffffff00;
+    width: 278.5px;
+    padding: 15px 15px 15px;
+    border-radius: 5px;
+    box-shadow: 0 3px 40px rgba(36, 36, 36, .1);
+}
+
+.membership-offersub-flx-1-text-1 {
+    font-size: 30px;
+    font-family: "Maven Pro", sans-serif;
+    font-weight: 600;
+    line-height: 70px;
+    text-align: left;
+}
+
+.membership-offersub-flx-1-text-2 {
+    font-size: 60px;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    line-height: 70px;
+    text-align: left;
+}
+
+.membership-offersub-flx-1-text-2-span {
+    text-align: left;
+    font-size: 24px;
+}
+
+.membership-offersub-flx-1-text-3 {
+    font-size: 30px;
+    font-family: "Maven Pro", sans-serif;
+    font-weight: 800;
+    letter-spacing: -2px;
+    text-align: left;
+    line-height: 42px;
+}
+
+.membership-offersub-flx-1text-para-1 {
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    line-height: 23px;
+    text-align: left;
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.flx-1235 {
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+}
+
+.flx-123456 {
+    flex-direction: column;
+    gap: 30px;
+}
+
+.membership-offer-btn-1 {
+    font-size: 18px;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    line-height: 22px;
+    text-align: center;
+    background-color: black;
+    height: 54px;
+    width: 151.531px;
+    padding: 20px 30px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.membership-offer-btn-1:hover {
+    background-image: linear-gradient(-335deg, #118DFF 0%, #9303D7 95%);
+    border: none;
+}
+
+.membership-offer-btn-2 {
+    font-size: 20px;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    line-height: 22px;
+    text-align: center;
+    background: none;
+    height: 54px;
+    width: 175px;
+    padding: 20px 30px;
+    border-radius: 10px;
+    border: 1px solid black;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.membership-offer-btn-2:hover {
+    background-image: linear-gradient(-335deg, #118DFF 0%, #9303D7 95%);
+    border: none;
+    color: white;
+}
+
+.portfolioitems {
+    flex-wrap: wrap;
+}
+
+.membershipcard1-textpara-2 {
+    width: 70%;
+}
+
+@media only screen and (max-width:768px) {
+    .portfolio-1 {
+        width: 31%;
+    }
+    .width-3,.width-1,.width-2{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:600px) {
+
+    .membership-offer-flx-2,
+    .membership-offer-flx-1,
+    .reinvent-sec-card-1 {
+        width: 100%;
+    }
+
+    .membership-offersub-flx-1 {
+        width: 100%;
+    }
+
+    .portfolio-1 {
+        width: 48%;
+    }
+
+    .membershipcard1 {
+        width: 47%;
+    }
+
+    .membership-offer-flx-2{
+        height: auto;
+    }
+
+    .reinvent-sec-cards-items {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width:530px) {
+    .portfolio-1,.membershipcard1 {
+        width: 100%;
+    }
+    .gradient-text-1{
+        font-size: 27px;
+        letter-spacing: -2px;
+        line-height: 35px;
+    }
+    .flx-1234{
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width:930px) {
+    .membership-offer {
+        flex-direction: column;
+    }
+}
